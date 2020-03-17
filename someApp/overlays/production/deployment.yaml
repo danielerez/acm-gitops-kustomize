@@ -10,4 +10,4 @@ spec:
       - name: demo
         image: "scraly/test.dockerapp:latest"
       imagePullSecrets:
-        - name: regsecret-prod
+        - name: regsecret-prod1
