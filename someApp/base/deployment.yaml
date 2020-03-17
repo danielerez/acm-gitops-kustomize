@@ -6,7 +6,7 @@ metadata:
     app: demo
 spec:
   replicas: 3
-  minReadySeconds: 11
+  minReadySeconds: 110
   selector:
     matchLabels:
       app: demo
