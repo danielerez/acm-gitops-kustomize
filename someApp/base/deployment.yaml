@@ -5,7 +5,7 @@ metadata:
   labels:
     app: demo
 spec:
-  replicas: 2
+  replicas: 3
   minReadySeconds: 11
   selector:
     matchLabels:
