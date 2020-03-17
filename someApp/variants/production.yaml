@@ -38,8 +38,8 @@ spec:
         imagePullPolicy: IfNotPresent
         name: demo
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
           name: http
           protocol: TCP
       imagePullSecrets:
-      - name: regsecret-prod
+      - name: regsecret-prod1
